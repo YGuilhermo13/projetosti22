@@ -1,0 +1,38 @@
+.uu{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 119, 29);
+    text-shadow: 2px 2px 2px #000000;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 119, 29);
+    text-shadow: 1px 1px 1px #000000;
+}
+h3{font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color:rgb(255, 119, 29);
+    text-shadow: 1px 1px 1px #000000;}
+    body{
+        background-color: #515248;
+    }
+    hr{
+        border: 2px solid #000000;
+    }
+    .link{
+     margin-left:  40%;
+     margin-right: 40%;
+    }
+    ol{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: rgb(255, 119, 29);
+        text-shadow: 1px 1px 1px #000000; 
+    }
