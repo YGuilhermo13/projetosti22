@@ -1,6 +1,6 @@
 .uu{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
     
 }
 h1{
@@ -35,4 +35,7 @@ h3{font-family: Arial, Helvetica, sans-serif;
         text-align: left;
         color: rgb(255, 119, 29);
         text-shadow: 1px 1px 1px #000000; 
+    }
+    .hh{
+        width:100%;
     }
