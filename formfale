@@ -1,0 +1,94 @@
+<!--Inicio do Formulario-->
+
+<div class="container">
+    <div class="row py-4">
+        <div class="col">
+            <h4>SarahPetShop - Formulário de Contato</h4>
+        </div>
+    </div>
+    <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+
+</div>
+
+
+<div class="container">
+    <div class="row py-4">
+        <div class="col">
+            <h2>GuiCachorrão- Formulário de Contato</h2>
+        </div>
+    </div>
+    <form name="frmContato" id="frmContact" onsubmit="return validateForm()" method="post" action="send_email.php"
+        enctype="multipart/form-data" novalidate>
+
+        <div class="row"> <!--Campo Nome-->
+            <div class="form-group col-md-4">
+                <label>Nome</label><span id="userName-info" class="invalid-feedback"></span>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="bootstrap-icons/person.svg"></span>
+                    </div>
+                    <input type="text" class="form-control" name="txtusername" id="userName" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!--Campo Email-->
+            <div class="form-group col-md-4">
+                <label>Email</label><span id="userEmail-info" class="invalid-feedback"></span>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="bootstrap-icons/envelope.svg"></span>
+                    </div>
+                    <input type="email" class="form-control" name="txtusername" id="userEmail" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!--Campo Assunto-->
+            <div class="form-group col-md-8">
+                <label>Assunto</label><span id="subject-info" class="invalid-feedback"></span>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="bootstrap-icons/question.svg"></span>
+                    </div>
+                    <input type="text" class="form-control" name="txtsubject" id="subject" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!--Campo Mensagem-->
+            <div class="form-group col-md-8">
+                <label>Mensagem</label><span id="content-info" class="invalid-feedback"></span>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="bootstrap-icons/pencil.svg"></span>
+                    </div>
+                    <textarea rows="5" class="form-control" name="txtmessage" id="message" required> </textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!--Botão Enviar-->
+            <div class="col">
+                <input type="submit" class="btn btn-primary" name="btnsend" value="Enviar Mensagem">
+
+            </div>
+        </div>
+
+    </form>
+</div>
